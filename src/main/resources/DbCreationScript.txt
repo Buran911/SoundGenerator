@@ -1,0 +1,47 @@
+CREATE TABLE octave (octave_id varchar(30), octave_name varchar(30));
+
+INSERT INTO octave VALUES("3","Small octave");
+INSERT INTO octave VALUES("4","First octave");
+INSERT INTO octave VALUES("5","Second octave");
+
+CREATE TABLE frequency (frequency_val varchar(30), tone varchar(30), octave_id varchar(30));
+
+INSERT INTO frequency VALUES("130.82","C", "3");
+INSERT INTO frequency VALUES("138.59","C#", "3");
+INSERT INTO frequency VALUES("147.83","D", "3");
+INSERT INTO frequency VALUES("155.56","D#", "3");
+INSERT INTO frequency VALUES("164.81","E", "3");
+INSERT INTO frequency VALUES("174.62","F", "3");
+INSERT INTO frequency VALUES("185","F#", "3");
+INSERT INTO frequency VALUES("196","G", "3");
+INSERT INTO frequency VALUES("207","G#", "3");
+INSERT INTO frequency VALUES("220","A", "3");
+INSERT INTO frequency VALUES("233.08","A#", "3");
+INSERT INTO frequency VALUES("246.96","B", "3");
+
+INSERT INTO frequency VALUES("261.63","C", "4");
+INSERT INTO frequency VALUES("277.18","C#", "4");
+INSERT INTO frequency VALUES("293.33","D", "4");
+INSERT INTO frequency VALUES("311.13","D#", "4");
+INSERT INTO frequency VALUES("329.63","E", "4");
+INSERT INTO frequency VALUES("349.23","F", "4");
+INSERT INTO frequency VALUES("369.99","F#", "4");
+INSERT INTO frequency VALUES("392","G", "4");
+INSERT INTO frequency VALUES("415.30","G#", "4");
+INSERT INTO frequency VALUES("440","A", "4");
+INSERT INTO frequency VALUES("466.16","A#", "4");
+INSERT INTO frequency VALUES("493.88","B", "4");
+
+INSERT INTO frequency VALUES("523.25","C", "5");
+INSERT INTO frequency VALUES("554.36","C#", "5");
+INSERT INTO frequency VALUES("587.32","D", "5");
+INSERT INTO frequency VALUES("622.26","D#", "5");
+INSERT INTO frequency VALUES("659.26","E", "5");
+INSERT INTO frequency VALUES("698.46","F", "5");
+INSERT INTO frequency VALUES("739.98","F#", "5");
+INSERT INTO frequency VALUES("784","G", "5");
+INSERT INTO frequency VALUES("830.60","G#", "5");
+INSERT INTO frequency VALUES("880","A", "5");
+INSERT INTO frequency VALUES("932.32","A#", "5");
+INSERT INTO frequency VALUES("987.75","B", "5");
+

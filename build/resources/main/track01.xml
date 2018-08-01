@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<track>
+    <name>Simple track</name>
+    <composer>Composer42</composer>
+    <temp>50</temp>
+    <music>
+
+        <note>
+            <tone>C</tone>
+            <duration>1/8</duration>
+        </note>
+        <note>
+            <tone>D</tone>
+            <duration>1/8</duration>
+        </note>
+        <note>
+            <tone>D#</tone>
+            <duration>1/8</duration>
+        </note>
+        <note>
+            <tone>F</tone>
+            <duration>1/8</duration>
+        </note>
+
+        <note>
+            <tone>C</tone>
+            <duration>1/8</duration>
+        </note>
+        <note>
+            <tone>D</tone>
+            <duration>1/8</duration>
+        </note>
+        <note>
+            <tone>D#</tone>
+            <duration>1/8</duration>
+        </note>
+        <note>
+            <tone>G</tone>
+            <duration>1/8</duration>
+        </note>
+
+    </music>
+</track>

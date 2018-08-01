@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <!-- Основной плеер для xml-файлов. -->
+    <bean id="xmlPlayer" class="com.buran911.XmlMusicPlayer">
+        <constructor-arg ref="audioFormat"/>
+        <constructor-arg name="synths">
+            <list>
+                <!-- Синтезатор для второй октавы. -->
+                <bean parent="synth" c:octaveName="Second octave"/>
+                <!-- Синтезатор для малой октавы. -->
+                <bean parent="synth" c:octaveName="Small octave"/>
+                <!-- Синтезатор для первой октавы. -->
+                <bean parent="synth" c:octaveName="First octave"/>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <!-- Настройки воспроизведения. -->
+    <bean id="audioFormat" class="javax.sound.sampled.AudioFormat">
+        <constructor-arg name="sampleRate" type="float" value="44100"/>
+        <constructor-arg name="sampleSizeInBits" type="int" value="8"/>
+        <constructor-arg name="channels" type="int" value="1"/>
+        <constructor-arg name="signed" type="boolean" value="true"/>
+        <constructor-arg name="bigEndian" type="boolean" value="true"/>
+    </bean>
+
+    <!-- Синтезатор для октавы. -->
+    <bean id="synth" factory-bean="synthFactory" factory-method="createSoundSynth" abstract="true"/>
+
+    <!-- Фабрика синтезаторов. -->
+    <bean id="synthFactory" class="com.buran911.SoundSynthFactory" c:dbPath="Frequences.s3db"/>
+
+</beans>

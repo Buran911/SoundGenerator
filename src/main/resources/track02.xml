@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<track>
+    <name>Shut your mouth</name>
+    <composer>Pain</composer>
+    <temp>60</temp>
+    <music>
+
+        <!-- Bar 1 -->
+        <note>
+            <tone>C</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>empty</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>G</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>C</tone>
+            <duration>1/4</duration>
+        </note>
+
+        <!-- Bar 2 -->
+        <note>
+            <tone>G#</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>empty</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>G</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>F</tone>
+            <duration>1/4</duration>
+        </note>
+
+        <!-- Bar 3 -->
+        <note>
+            <tone>G</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>empty</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>F</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>G</tone>
+            <duration>1/4</duration>
+        </note>
+
+        <!-- Bar 4 -->
+        <note>
+            <tone>G#</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>G#</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>G</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>F</tone>
+            <duration>1/4</duration>
+        </note>
+
+
+        <!-- Bar 5 -->
+        <note>
+            <tone>C</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>empty</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>G</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>C</tone>
+            <duration>1/4</duration>
+        </note>
+
+        <!-- Bar 6 -->
+        <note>
+            <tone>G#</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>empty</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>G</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>F</tone>
+            <duration>1/4</duration>
+        </note>
+
+        <!-- Bar 7 -->
+        <note>
+            <tone>D#</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>empty</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>F</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>D#</tone>
+            <duration>1/4</duration>
+        </note>
+
+        <!-- Bar 8 -->
+        <note>
+            <tone>D</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>D</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>D#</tone>
+            <duration>1/4</duration>
+        </note>
+        <note>
+            <tone>D</tone>
+            <duration>1/4</duration>
+        </note>
+
+    </music>
+</track>
