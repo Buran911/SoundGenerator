@@ -177,6 +177,9 @@
       <find>close(</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
@@ -511,12 +514,13 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="554" />
-    <option name="height" value="974" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-16" />
+    <option name="y" value="-16" />
+    <option name="width" value="1108" />
+    <option name="height" value="1948" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -772,16 +776,15 @@
       <workItem from="1525349530981" duration="991000" />
       <workItem from="1525361863216" duration="1482000" />
       <workItem from="1525800226160" duration="817000" />
-      <workItem from="1533153488188" duration="1000000" />
+      <workItem from="1533153488188" duration="1598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79886000" />
+    <option name="totallyTimeSpent" value="80484000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="1946" height="1106" extended-state="6" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1293" height="813" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -789,12 +792,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.20058997" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32890856" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24733475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3757085" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.20728745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
